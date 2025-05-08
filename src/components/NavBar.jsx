@@ -77,7 +77,7 @@ function NavBar() {
                       </nav>
                     </div>
                     <div className="header-right-btn d-none d-lg-block ml-20">
-                      <Link to="/donate" className="btn header-btn">Donate</Link>
+                      <Link to="/register" className="btn header-btn">Donate</Link>
                     </div>
                   </div>
                 </div>

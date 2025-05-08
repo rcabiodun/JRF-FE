@@ -1,0 +1,70 @@
+.otp-container .form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 400px;
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.otp-container .title {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.otp-container .message {
+  color: #a3a3a3;
+  font-size: 14px;
+  margin-top: 4px;
+  text-align: center;
+}
+
+.otp-container .inputs {
+  margin-top: 10px;
+}
+
+.otp-container .inputs input {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border: none;
+  border-bottom: 1.5px solid #d2d2d2;
+  margin: 0 10px;
+}
+
+.otp-container .inputs input:focus {
+  border-bottom: 1.5px solid #09cc7f;
+  outline: none;
+}
+
+.otp-container .action {
+  margin-top: 24px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: none;
+  background-color:#09cc7f;
+  color: white;
+  cursor: pointer;
+  align-self: end;
+}
+
+.otp-container .resend-text {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #a3a3a3;
+  text-align: center;
+  width: 100%;
+}
+
+.otp-container .resend-link {
+  color: #09cc7f;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.otp-container .resend-link:hover {
+  text-decoration: underline;
+}
